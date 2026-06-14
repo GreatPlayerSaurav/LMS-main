@@ -211,7 +211,7 @@ const Login = () => {
                   name="role"
                   value={loginInput.role}
                   onChange={(e) => changeInputHandler(e, "login")}
-                  className="w-full border rounded-md p-2"
+                  className="w-full text-orange-500 border rounded-md p-2"
                 >
                   <option value="student">Student</option>
 
